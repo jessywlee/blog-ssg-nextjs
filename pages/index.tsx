@@ -9,7 +9,6 @@ interface PostList {
 }
 
 const Home = ({posts}: PostList) => {
-  console.log(posts)
   return (
     <div>
       <Head>
@@ -27,7 +26,6 @@ const Home = ({posts}: PostList) => {
 export async function getStaticProps() {
   //Get files from __posts dir
   const files = fs.readdirSync(path.join('__posts'));
-  console.log(files)
 
   //Get slug and frontmatter from posts
   const posts = files.map(filename => {

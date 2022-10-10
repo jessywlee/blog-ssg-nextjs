@@ -39,7 +39,7 @@ header a {
   max-width: 768px;
   margin: auto;
   overflow: auto;
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 
 .btn {
@@ -74,6 +74,7 @@ header a {
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   margin-top: 30px;
+  padding: 10px 0px;
 }
 
 .card {
@@ -91,9 +92,8 @@ header a {
 }
 
 .post-date {
-  background: #f4f4f4;
   margin-bottom: 20px;
-  padding: 3px 10px;
+  padding: 3px 0px;
 }
 
 .post-body ul,
